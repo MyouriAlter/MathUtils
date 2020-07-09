@@ -11,13 +11,13 @@ It is a part of Software engineering course in Semester 4 at FPT university, HCM
 
 ## Contact me via 
 
-[Github] (https://github.com/MyouriAlter)
+[Github](https://github.com/MyouriAlter)
 
-[Facebook] (https://www.facebook.com/q.x.Neet.x.Innocentbystander4ever.x.Gamer.x.p/)
+[Facebook](https://www.facebook.com/q.x.Neet.x.Innocentbystander4ever.x.Gamer.x.p/)
 
-[Twitter] (https://twitter.com/8_Meow_8_Meow_8)
+[Twitter](https://twitter.com/8_Meow_8_Meow_8)
 
-[Email] (innocentbystander0123@gmail.com)
+[Email](innocentbystander0123@gmail.com)
 
 [Discord] Olivia#8888
 
