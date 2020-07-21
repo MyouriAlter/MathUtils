@@ -20,10 +20,14 @@ public class MathUtil {
         //ta ko chấp nhận giai thừa âm và n>15 vì quá lớn, tràn số
         if (n < 0 || n > 15) 
             throw new IllegalArgumentException("Invalid argument. n must be > 0 % n <= 15");
-        long result = 1;
-        for (int i = 1; i <= n; i++) {
-            result *= i;
-        }
-        return result;
+        if (n == 0 || n == 1) 
+            return 1; //Điểm dừng của giai thừa
+        return n*computeFactorial(n-1);
+                    
+        //long result = 1;
+        //for (int i = 1; i <= n; i++) {
+        //    result *= i;
+        //}
+        //return result;
     }
 }
