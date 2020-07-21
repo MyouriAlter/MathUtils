@@ -17,6 +17,9 @@ public class MathUtil {
     //nên tràn int (2 tỉ 1) rất sớm, ta trả về long có 15!.
     public static long computeFactorial(int n){
         //cứ viết, sai đúng từ từ tính
+        //ta ko chấp nhận giai thừa âm và n>15 vì quá lớn, tràn số
+        if (n < 0 || n > 15) 
+            throw new IllegalArgumentException("Invalid argument. n must be > 0 % n <= 15");
         long result = 1;
         for (int i = 1; i <= n; i++) {
             result *= i;
